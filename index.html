@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>git rule</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <form action="#" method="get">
+      <p>name</p>
+      <p>
+        <input type="text" placeholder="user name" tabindex="0" name="name" />
+      </p>
+      <!-- <label for="pass">password</label> -->
+      <p>password</p>
+      <input type="password" name="pass" id="pass" tabindex="1" />
+      <!-- <label for="phone">phone</label> -->
+      <p>phone</p>
+      <p><input type="tel" name="phone" id="phone" tabindex="2" /></p>
+      <p>sex</p>
+      <p><input tabindex="15" type="radio" name="gender" value="mal" />male</p>
+      <p>
+        <input tabindex="15" type="radio" name="gender" value="femal" />female
+      </p>
+      <p>likes</p>
+      <p>
+        <input type="checkbox" id="grapes" checked tabindex="4" />
+        <label for="grapes">grapes</label>
+      </p>
+      <p>
+        <input type="checkbox" id="pears" checked tabindex="5" />
+        <label for="pears">pears</label>
+      </p>
+      <p>
+        <textarea
+          id="story"
+          name="story"
+          rows="5"
+          cols="33"
+          tabindex="6"
+        ></textarea>
+      </p>
+      <p>add photo optionally</p>
+      <input type="file" tabindex="7" />
+      <p>
+        <label for="color">lovely color</label>
+        <select id="color" tabindex="8">
+          <option value="green">green</option>
+          <option value="blue">blue</option>
+          <option selected value="brown">brown</option>
+        </select>
+      </p>
+      <p>
+        <label for="form">Action</label>
+        <button type="submit">submit</button><button type="reset">reset</button>
+      </p>
+    </form>
+  </body>
 </html>
