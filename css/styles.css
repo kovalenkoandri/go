@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+.container {
+  background-color: darkgrey;
+  border: 6px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  height: 400px;
+  align-content: space-between;
+}
+.flex-item {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.item1 {
+  background-color: darkcyan;
+  padding-bottom: 3rem;
+}
+.item2 {
+  background-color: antiquewhite;
+  padding-bottom: 5rem;
+}
+.item3 {
+  background-color: aqua;
+  font-size: 3rem;
+}
+.item4 {
+  background-color: aquamarine;
+  font-size: 4rem;
+}
+.item5 {
+  background-color: blue;
+  padding-top: 4rem;
+}
+.item6 {
+  background-color: blueviolet;
+  padding-left: 4rem;
+}
+.item7 {
+  background-color: yellowgreen;
+  padding-right: 4rem;
+}
+.item8 {
+  background-color: darksalmon;
+  padding-bottom: 3rem;
+}
+.item9 {
+  background-color: crimson;
+  padding-top: 3rem;
+}
